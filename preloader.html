@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Preloader</title>
+  <style>
+  h2{
+    color: #a0a6ac;
+    text-align: center;
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 40px;
+  }
+    body{
+background-color: #314a5a
+    }
+    #prel{
+      border: 1px #a0a6ac;
+      height: 20px;
+      width: 100px;
+      margin: auto;
+      margin-top: 300px;
+    }
+    .dot{
+      width: 10px;
+      height: 10px;
+      background-color: #181a1b;
+      margin: 5px;
+      float: left;
+      border-radius: 10px;
+    }
+    .dot:hover{
+      background-color: white;
+    }
+
+    #first{
+animation: pulse 1s infinite;
+}
+#second{
+  animation: pulse 1s infinite;
+}
+#third{
+  animation: pulse 1s infinite;
+}
+#fourth{
+  animation: pulse 1s infinite;
+}
+#fifth{
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse{
+  from{background-color: #181a1b;}
+    to{background-color: red;}
+}
+
+  </style>
+</head>
+<body>
+  <header id="prel">
+    <div id="first" class="dot"></div>
+    <div id="second" class="dot"></div>
+    <div id="third" class="dot"></div>
+    <div id="fourth" class="dot"></div>
+    <div id="fifth" class="dot"></div>
+ </header>
+  <h2>Va rugam, asteptati...</h2>
+
+</body>
+</html>
