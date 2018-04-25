@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: #F5F5F5;
+}
+nav{
+  background-color: #FFF;
+  height: 16px;
+  box-shadow: 0 0 4px 2px #D5D5D5;
+  padding: 20px;
+}
+nav form,
+nav a{
+  float: left;
+}
+nav a:first-child,
+:nth-child(2){
+  margin-right: 30px;
+}
+nav form,
+form+a{
+margin-right: 30px;
+}
