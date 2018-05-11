@@ -1,0 +1,28 @@
+CSS(3+) FX
+-Transform: rotate(), scale(), translate(), skew(), matrix()
+-background-image:url(calea/pana/la/imagine)
+-background-image: linear-gradient()
+                   radial-gradient()
+                   diagonal-gradient()
+
+-filter: blur()
+         grayscale()
+         brightness()
+         contrast()
+         drop-shadow()
+         invert()
+         opacity()
+         saturate()
+         sepia()
+
+-opacity: 0...1
+
+-box-shadow:
+
+-text-shadow:
+
+-mix-blend-mode
+
+-transition:
+
+-animation:
