@@ -1,0 +1,33 @@
+/*Reset(Eliminarea stilurilor by default)*/
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  font-family: Arial;
+  font-size: 18px;
+}
+/*Varianta 1 - inline-block*/
+#nav-inline-block{
+  background-color: #116aa2;
+}
+#nav-inline-block a{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 13.5px;
+  color: #ecfaff;
+}
+#nav-inline-block a:hover{
+  background-color: #009e9c;
+}
+#nav-inline-block .logo{
+  padding: 0;
+}
+#nav-inline-block li .Logo:hover{
+  background-color: inherit;
+}

@@ -1,0 +1,44 @@
+/*Reset(Eliminarea stilurilor by default)*/
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  font-family: Arial;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+/*Varianta 1 - Float*/
+#nav-floated{
+  background-color: #116aa2;
+  height: 56px;
+  color: #98defe;
+  padding-left: 5%;
+}
+
+#nav-floated li{
+  float: left;
+}
+#nav-floated li a{
+  padding: 13.5px;
+  display: block;
+  color: #ecfaff;
+  /*background-color: green;*/
+}
+
+#nav-floated li a:hover{
+  background-color: #009e9c;
+}
+
+#nav-floated li .Logo{
+  margin: -11px;
+  padding-left: 0;
+}
+#nav-floated li .Logo:hover{
+  background-color: inherit;
+}
