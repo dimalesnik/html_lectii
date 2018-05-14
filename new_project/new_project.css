@@ -1,0 +1,18 @@
+div{
+  background-color: #dbffea;
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-weight: 200px;
+  text-align: center;
+  left: 50%px;
+  top: 50%;
+}
+#Register{
+  position: absolute;
+  padding: 20px;
+}
+#Username{background-color: blue;
+}
