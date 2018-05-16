@@ -12,7 +12,6 @@ body{
   left: 50%;
 }
 #carousel .images{
-  border: 1px solid black;
   height: 0;
   width: 1000px;
   position: absolute;
@@ -39,7 +38,34 @@ body{
   font-weight: 200;
 }
 #carousel .images img{
+box-shadow: 0 0 5px 2px black;
 position: relative;
 top: -100px;
   width: 190px;
+}
+
+#img1{
+  transform: scale(1.2);
+  right: -200px;
+}
+
+#img2{
+  transform: scale(1.3);
+  right: -100px;
+}
+
+#img3{
+  transform: scale(1.5);
+  z-index: 2;
+}
+
+#img4{
+  transform: scale(1.3);
+  right: 100px;
+  z-index: 1;
+}
+
+#img5{
+  transform: scale(1.2);
+  right: 200px;
 }
