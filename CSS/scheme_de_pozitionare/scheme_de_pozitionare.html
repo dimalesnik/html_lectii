@@ -1,0 +1,30 @@
+css position:
+  +static
+  relative (top, right, bottom, left)(z-index: 2 1 0 -1 -2..)
+  absolute
+  fixed
+  sticky
+
+
+  *element -> window
+  *element -> parent
+  *element -> neighbor
+
+  Schema de pozitionare relativa pe deoparte mosteneste toate proprietatile din schema statica
+document flow -> fluxul elementelor(fiecare element are amplasarea lui)
+Pe de alta parte elementul pozitionat relativ, poate fi deplasat liber fata de pozitia
+sa initiala, fara ca sa afecteze celelalte elemente.
+
+
+  Elementul pozitionat absolut este mutat intr-o fereastra(strat) separata, prin urmare
+elementul se comporta ca si cum celelalte nu exista si invers. Elementul pozitionat absolut,
+devine absolut independent. In pozitionarea absoluta, coordonatele se masoara din start de la
+chenarul ferestrei. Elementul pozitionat absolute, isi masoara coordonatele de la cel mai
+apropiat parinte care nu-i in schema statica.
+
+
+  Schema de pozitionare fixa a elementului, mosteneste totul de la schema absolut, cu 2 momente.
+    1. Elementul ramane in coordonate indicate.
+    2. El nu poate fi amplasat fata de parinte, doar fata de coordonatele ferestrei.
+
+  Sticky, permite elementului a fi fixat conditionata. 
