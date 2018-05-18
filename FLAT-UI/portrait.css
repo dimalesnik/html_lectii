@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  border: 1px solid black;
+
+}
+#chat{
+  background-color: #dde;
+  height: 100vh;
+}
+#chat .status-bar{
+  background-color: #99f;
+  height: 5vh;
+}
+#chat .menu{
+  background-color: white;
+  height: 15vh;
+}
+#chat .bottom{
+  background-color: white;
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+#chat .bottom label, #chat .bottom button{
+  background-color: #99f;
+  border-radius: 6px;
+}
+#chat .bottom input[type="radio"],
+#chat .bottom input[type="checkbox"]{
+  display: none;
+}
+#chat .bottom input[type="text"]{
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+form{
+  /*text-align: center;*/
+  padding: 15px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+#chat form button{
+  font-size: 20px;
+  border-radius: 6px;
+}
+#chat .bottom input[type="checkbox"]+i{
+  opacity: 0.5;
+}
+#chat .bottom input[type="checkbox"]:checked+.fa{
+  opacity: 1;
+}
+#chat form label{
+  margin: 5px;
+}
