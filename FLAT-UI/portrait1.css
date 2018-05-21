@@ -1,0 +1,19 @@
+body{
+  display: table;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0;
+}
+body div{
+  display: table-row;
+  padding: 10px;
+  margin-left: 10px;
+}
+body div section{
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid red;
+}
+body #Mary:first-child{
+  background-color: green;
+}
