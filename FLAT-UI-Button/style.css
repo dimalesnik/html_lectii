@@ -1,0 +1,41 @@
+form, ul, li{
+  display: inline-block;
+}
+nav{
+  background-color: #556;
+  padding: 10px 10%;
+}
+nav form input{
+  background-color: transparent;
+  border-width: 0;
+  border-bottom: 1px solid #778;
+  padding: 7px 11px;
+}
+nav form input::placeholder{
+  color: white;
+}
+nav form button{
+  background-color: transparent;
+  border-width: 0;
+}
+nav li{
+  padding-left: 20px;
+}
+nav a{
+  color: #ddd;
+  font-size: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+nav .icon{
+  filter: invert(70%);
+  /*filter: invert(40%) grayscale(100%) brightness(72%) sepia(100%) hue-rotate(-150deg) saturate(400%) contrast(2);*/
+}
+nav li:hover a{
+  color: white;
+}
+nav li:hover .icon{
+  filter: invert(100%);
+}
+nav .icon:hover{
+  color: white;
+}
