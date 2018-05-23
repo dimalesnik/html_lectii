@@ -1,5 +1,6 @@
 form, ul, li{
   display: inline-block;
+  padding-left: 10px;
 }
 nav{
   background-color: #556;
@@ -38,4 +39,10 @@ nav li:hover .icon{
 }
 nav .icon:hover{
   color: white;
+}
+@media screen and (max-width:760px){
+  nav, ul{
+    display: block;
+    width: 90%;
+  }
 }
