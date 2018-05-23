@@ -1,0 +1,22 @@
+scss/sass, less, stylus,...
+
+ (css+superpowers)
+ (css+programming)
+ - nu exista suport nativ !!!
+
+
+style.scss--->(copilator)--->    style.css ---> pagina HTML
+
+
+sass-scss.ru punctul 4! punctul 6(6.2, 6.3, 6.4)
+sass-lang.com
+
+
+codepen.io
+
+
+
++ putem folosi variabile  ---> containere pastram valori
++ operatori               --->   =, -, /, *
++ structuri logice        ---> conditii
++ functii()
